@@ -10,7 +10,7 @@ Return **true** if there's a cycle in the linked list. Otherwise, return false.
 ```mermaid
 graph TD;
     3-->2
-    3-->0
+    2-->0
     0-->-4
     -4-->2
 ```
