@@ -21,11 +21,11 @@ graph TD;
 
 ## Example 2
 
-````mermaid
+```mermaid
 graph TD;
     1-->2
     2-->1
-``
+```
 
 `Input: head = [1,2], pos = 0`\
 `Output: true`\
@@ -36,7 +36,7 @@ graph TD;
 ```mermaid
 graph TD;
     1
-````
+```
 
 `Input: head = [1], pos = -1`\
 `Output: false`\
