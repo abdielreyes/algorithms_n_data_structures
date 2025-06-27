@@ -14,3 +14,14 @@ graph TD;
     0-->4
     4-->2
 ```
+
+## Example 3
+
+```mermaid
+graph TD;
+    1
+```
+
+> Input: head = [1], pos = -1
+> Output: false
+> Explanation: There is no cycle in the linked list
