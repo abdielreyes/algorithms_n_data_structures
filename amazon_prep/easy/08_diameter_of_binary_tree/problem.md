@@ -9,10 +9,10 @@ The length of a path between two nodes is represented by the number of edges bet
 
 ```mermaid
 graph TD;
-    1 --> 2("Left")
-    1 --> 3("Right")
-    2 --> 4("Left.Left")
-    2 --> 5("Right.Right")
+    1 --> 2
+    1 --> 3
+    2 --> 4
+    2 --> 5
 
 ```
 
