@@ -38,4 +38,4 @@ graph TD;
 
 `Input: root = [A,B,C,D,E,F,G,I,J]`\
 `Output: 7`\
-`Explaination: 7 is the length of the path [(I or J),H,D,B,E,F,G]`\
+`Explaination: 7 is the length of the path [(I or J),H,D,B,E,F,G]. Here the longest path doesnt pass through the root`\
