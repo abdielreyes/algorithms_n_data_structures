@@ -19,3 +19,22 @@ graph TD;
 `Input: root = [1,2,3,4,5]`\
 `Output: 3`\
 `Explaination: 3 is the length of the path [4,2,1,3] or [5,2,1,3]`\
+
+## Example 2
+
+```mermaid
+graph TD;
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    D --> H
+    H --> I
+    E --> F
+    F --> G
+
+```
+
+`Input: root = [A,B,C,D,E,F,G,I,J]`\
+`Output: 7`\
+`Explaination: 7 is the length of the path [(I or J),H,D,B,E,F,G]`\
