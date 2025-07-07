@@ -11,8 +11,7 @@
 
 ## Diagram
 
-```
-classDiagram
+```mermaid
 direction TB
     class Vehicle {
     }
